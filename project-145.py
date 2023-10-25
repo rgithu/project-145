@@ -1,0 +1,21 @@
+from tkinter import *
+import random
+root=Tk()
+root.title("Driving license")
+root.geometry("500x500")
+btn1 = Button(root,text=" Driving license",bg="red",fg="yellow")
+btn1.place(relx=0.5,rely=0.1,anchor=CENTER)
+btn2 = Button(root,text=" ID : 19827198349",bg="blue",fg="yellow")
+btn2.place(relx=0.5,rely=0.2,anchor=CENTER)
+btn3 = Button(root,text="Name : Peter Jamer",bg="black",fg="white")
+btn3.place(relx=0.5,rely=0.3,anchor=CENTER)
+btn4 = Button(root,text="Date Of Birth : 13 June 1990",bg="orange",fg="yellow")
+btn4.place(relx=0.5,rely=0.4,anchor=CENTER)
+btn5 = Button(root,text="Pin Code : 451478",bg="pink",fg="purple")
+btn5.place(relx=0.5,rely=0.5,anchor=CENTER)
+btn6 = Button(root,text="Address : Disneyland,HongKong",bg="Gold",fg="Silver")
+btn6.place(relx=0.5,rely=0.6,anchor=CENTER)
+btn7 = Button(root,text="Authorisation to drive the following vehicles : 2 Wheelers , 4 Wheelers ",bg="blue",fg="white")
+btn7.place(relx=0.5,rely=0.7,anchor=CENTER)
+
+root.mainloop()
